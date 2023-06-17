@@ -41,15 +41,7 @@ def calString(data):
     return total
 
 # print(calString("---37@bai5@nay1@2de-----3dung#31hong-12"))
-        
-def haha(data):
-    data = list(data)
-    for i in range(len(data)):
-        if data[i].isalpha():
-            data[i] = "+"
-    hihi = "".join(data)
-    return eval(hihi)
-# print(haha("--38bai6nay12de-----3dung1hong-12"))
+
 def twoSum(nums ,target):
         data = dict()
         for index, value in enumerate(nums):
